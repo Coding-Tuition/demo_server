@@ -4,7 +4,7 @@ import { router } from "./router.js";
 import cors from "cors";
 
 const app = express();
-app.use(cors({ origin: "https://autheapp.vercel.app/" }));
+app.use(cors({ origin: "https://demo-app-five-phi.vercel.app" }));
 app.use(express.json());
 
 app.listen(5080);
